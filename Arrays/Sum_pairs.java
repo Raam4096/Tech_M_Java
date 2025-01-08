@@ -5,6 +5,8 @@ public class Sum_pairs {
 	public static void main(String[] args) {
 		int[] arr= {1,2,4,3,7,9,2,3,2};
 		int[] new_arr=new int[arr.length];
+		
+		//Duplicates
 		int count;
 		for(int i=0;i<arr.length;i++) {
 			count=0;
@@ -21,6 +23,8 @@ public class Sum_pairs {
 		for(int x:new_arr) {
 			System.out.print(x+" ");
 		}
+		
+		//finding pairs matches the sum
 		int key_sum=5;
 		int res=0;
 		for(int i=0;i<new_arr.length;i++) {

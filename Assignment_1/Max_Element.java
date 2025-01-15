@@ -8,8 +8,18 @@ public static void main(String args[]) {
 	Scanner s =new Scanner(System.in);
 	System.out.println("Enter the array size");
 	int n= s.nextInt();
+	int max=0;
 	int[] arr=new int[n];
-	for()
-	
-}
+	System.out.println("Enter array elements");
+	for(int i=0;i<n;i++) {
+		arr[i]=s.nextInt();
+	}
+	max=arr[0];
+	for(int y:arr) {
+		if(max<y) {
+			max=y;
+		}
+	}
+	System.out.println("Max element in the array is "+max);
+	}
 }

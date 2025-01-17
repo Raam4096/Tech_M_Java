@@ -11,6 +11,7 @@ public class Common_elem {
             for (int y : arr) {
                 if (x == y) {
                     System.out.print(x + " ");
+                    
                     found = true;
                 }
             }
